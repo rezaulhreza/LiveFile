@@ -36,7 +36,7 @@ jobs:
           restore-keys: npm-
 
       - name: Run npm
-        run: npm install && npm run build
+        run: npm install && npm run prod
         env:
           # Update the Node.js version to 14 or higher
           NODE_VERSION: 14.x
